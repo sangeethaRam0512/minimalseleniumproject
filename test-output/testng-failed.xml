@@ -5,8 +5,11 @@
     <classes>
       <class name="tests.AddToCart">
         <methods>
-          <include name="addTocart"/>
+          <include name="verifyTitle"/>
+          <include name="setUpReport"/>
+          <include name="flushReport"/>
           <include name="setup"/>
+          <include name="login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.AddToCart -->
